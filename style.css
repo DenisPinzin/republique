@@ -1,0 +1,241 @@
+@font-face {
+    font-family: inter;
+    src: url("/Inter/static/Inter_18pt-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+
+/*----- NAV ------*/
+
+nav {
+    background-color: #10162F;
+    margin: 0;
+    padding: 2 em;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+        align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 8em;
+    height: 8em;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+/*----- HERO ------*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/img/students-outside-university.jpg");
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0.5em 2em 0.5em 2em;
+    margin-top: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
+    border-radius: 0 25px 25px 0;
+}
+
+.hero_description {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5em 0 0 2em;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 25px;
+    max-width: 30em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    gap: 3em;
+}
+
+.all_cards{
+    display: flex;
+    gap: 2em;
+}
+
+.card {
+    flex: 1;
+    border: 1px solid #475184;
+    border-radius: 25px;
+    padding: 1em;
+    box-shadow: 2px 3px 5px 0px #475184;
+}
+
+.card span {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #475184;
+    color: white;
+    padding: 1em;
+    border: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #475184;
+    border: 1px solid #475184;
+}
+
+.devise-section {
+    border: 2px solid #475184;
+    border-radius: 25px;
+    padding: 2em 1em;
+    box-shadow: 2px 3px 5px 0px #475184;
+}
+
+.devise1 { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #475184;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+}
+
+
+
+.devise1_paragraph {
+    width: 60%;
+}
+
+.img_devise1 {
+    height: 200px;
+    width: 30%;
+    border-radius: 25px;
+}
+
+.img_devise1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.devise2 {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.img_devise2 {
+    height: 200px;
+    width: 30%;
+    border-radius: 25px;
+} 
+
+.img_devise2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.devise2_paragraph {
+    border: 1px solid #475184;
+    padding: 1em;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.devise2 span {
+    font-weight: bold;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+    background-color: #10162F;
+    margin: 0;
+    padding: 2em; 
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+footer .logo {
+    width: 2em;
+}
+
+footer .logo img {
+    width: 150px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    gap: 15rem;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer_icons {
+    display: flex;
+    align-items: center;
+    width: 0px;
+    display: flex;
+    gap: 3em;
+}
+
+.footer_icon {
+    width: 1.5em;
+}
+
+.footer_icon img {
+    width: 100%;
+    border-radius: 100%;
+    padding: 1em;
+    background-color: #475184;
+
+}
