@@ -47,6 +47,10 @@ nav ul a {
     color: white;
 }
 
+nav ul a:hover {
+    text-decoration: underline 2px solid white;
+}
+
 /*----- HERO ------*/
 
 .hero {
@@ -211,6 +215,7 @@ footer ul {
     align-items: center;
     margin: 0;
     width: 100%;
+    padding: 0;
 }
 
 footer ul a {
@@ -235,4 +240,54 @@ footer ul a {
     border-radius: 100%;
     padding: 1em;
     background-color: #475184;
+}
+
+
+
+@media screen and (max-width : 1024px) {
+    .devise1 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .devise1_paragraph {
+        width: 100%;
+    }
+
+    .img_devise1 {
+        width: 100%;
+    }
+
+    .img_devise2 {
+        width: 100%;
+    }
+
+    .devise2 {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .devise2_paragraph {
+        height: auto;
+    }
+
+    .all_cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .footer_icons {
+        width: 100%;
+        justify-content: space-evenly;
+    }
 }
